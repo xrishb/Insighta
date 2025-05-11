@@ -86,7 +86,7 @@ Found a bug? Have an idea for a new feature? We'd love to hear from you! Feel fr
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The Project is completely free and open source.
 
 
 Created with ❤️ by Rishabh Rawat (xrishb)
