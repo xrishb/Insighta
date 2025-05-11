@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insighta - Business Intelligence Insights Engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <!-- D3.js for visualizations -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Marked.js for Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>Insighta</h1>
+                <p>Business Intelligence</p>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active" data-section="upload-section">
+                        <i class="fas fa-cloud-upload-alt"></i> Data Upload
+                    </li>
+                    <li data-section="insights-section" id="insights-nav-item" class="disabled">
+                        <i class="fas fa-brain"></i> Insights
+                    </li>
+                    <li data-section="visualization-section" id="viz-nav-item" class="disabled">
+                        <i class="fas fa-chart-pie"></i> Visualizations
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <p><i class="fas fa-robot"></i> Powered by Gemini AI</p>
+                <p><i class="fas fa-code"></i> Created by Rishabh Rawat (xrishb)</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Upload Section -->
+            <section id="upload-section" class="content-section active">
+                <div class="section-header">
+                    <h2><i class="fas fa-upload"></i> Upload Your Data</h2>
+                    <p>Upload your data file to generate business intelligence insights</p>
+                </div>
+                
+                <div class="upload-container">
+                    <div class="upload-box" id="upload-dropzone">
+                        <i class="fas fa-file-upload"></i>
+                        <p>Drag and drop your file here, or click to select</p>
+                        <p class="supported-formats">Supported formats: CSV, Excel, JSON</p>
+                        <input type="file" id="file-input" accept=".csv,.xlsx,.xls,.json" hidden>
+                    </div>
+                    <div class="upload-actions">
+                        <button id="upload-btn" class="primary-btn" disabled><i class="fas fa-cloud-upload-alt"></i> Upload</button>
+                        <button id="sample-data-btn" class="secondary-btn"><i class="fas fa-vial"></i> Try with Sample Data</button>
+                    </div>
+                </div>
+                
+                <div id="data-preview" class="preview-container hidden">
+                    <h3><i class="fas fa-table"></i> Data Preview</h3>
+                    <div class="data-summary">
+                        <div id="file-info">
+                            <p><strong>File:</strong> <span id="filename"></span></p>
+                            <p><strong>Type:</strong> <span id="filetype"></span></p>
+                        </div>
+                        <div id="data-stats"></div>
+                    </div>
+                    <div id="preview-table-container">
+                        <table id="preview-table"></table>
+                    </div>
+                    <div class="analyze-container">
+                        <button id="analyze-btn" class="primary-btn"><i class="fas fa-magic"></i> Generate Insights</button>
+                    </div>
+                    <div class="nav-buttons" style="justify-content: center;">
+                        <button class="nav-btn" onclick="navigateToSection('insights-section')"><i class="fas fa-lightbulb"></i> Go to Insights</button>
+                        <button class="nav-btn" onclick="navigateToSection('visualization-section')"><i class="fas fa-chart-bar"></i> Go to Visualizations</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Insights Section -->
+            <section id="insights-section" class="content-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-lightbulb"></i> Business Insights</h2>
+                    <p>AI-generated insights from your data</p>
+                    <div class="nav-buttons">
+                        <button class="nav-btn" onclick="navigateToSection('upload-section')"><i class="fas fa-arrow-left"></i> Back to Upload</button>
+                        <button class="nav-btn" onclick="navigateToSection('visualization-section')"><i class="fas fa-chart-bar"></i> Go to Visualizations</button>
+                    </div>
+                </div>
+                
+                <div class="insights-controls">
+                    <div class="insight-type-selector">
+                        <label for="insight-type">Insight Type:</label>
+                        <select id="insight-type">
+                            <option value="general">General Insights</option>
+                            <option value="trends">Trend Analysis</option>
+                            <option value="anomalies">Anomaly Detection</option>
+                        </select>
+                    </div>
+                    <div class="question-container">
+                        <label for="specific-question">Ask a specific question:</label>
+                        <div class="question-input-container">
+                            <input type="text" id="specific-question" placeholder="E.g., What factors drive customer churn?">
+                            <button id="ask-btn"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="loading-indicator" class="loading hidden">
+                    <div class="spinner"></div>
+                    <p>Generating insights...</p>
+                </div>
+                
+                <div id="insights-display" class="insights-container">
+                    <div id="insights-content"></div>
+                </div>
+            </section>
+
+            <!-- Visualization Section -->
+            <section id="visualization-section" class="content-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-chart-pie"></i> Data Visualizations</h2>
+                    <p>Interactive visualizations of your data</p>
+                    <div class="nav-buttons">
+                        <button class="nav-btn" onclick="navigateToSection('insights-section')"><i class="fas fa-lightbulb"></i> Back to Insights</button>
+                        <button class="nav-btn" onclick="navigateToSection('upload-section')"><i class="fas fa-upload"></i> Back to Upload</button>
+                    </div>
+                </div>
+                
+                <div id="visualizations-container">
+                    <!-- Visualizations will be inserted here -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 

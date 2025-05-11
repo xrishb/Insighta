@@ -1,0 +1,55 @@
+# Web Framework
+Flask==3.0.2
+Werkzeug==3.0.1
+
+# Data Processing
+pandas==2.2.1
+numpy==1.26.4
+openpyxl==3.1.2  # For Excel file support
+
+# AI/ML
+google-generativeai==0.3.2
+
+# Utilities
+python-dotenv==1.0.1
+uuid==1.30
+requests==2.31.0
+
+# Development
+pytest==8.0.2
+black==24.2.0
+flake8==7.0.0
+
+# Core libraries
+scikit-learn==1.2.2
+matplotlib==3.4.3
+seaborn==0.11.2
+
+# NLP and LLM integration
+transformers==4.30.2
+langchain==0.0.235
+langchain-google-genai==0.0.5  # For Gemini API integration
+sentence-transformers==2.2.2
+nltk==3.8.1
+spacy==3.6.0
+
+# Data processing and storage
+sqlalchemy==2.0.17
+pymongo==4.4.0
+
+# API and web interface
+fastapi==0.99.1
+uvicorn==0.22.0
+streamlit==1.24.0
+pydantic==1.10.9
+
+# Utilities
+tqdm==4.65.0
+jupyter==1.0.0
+
+# Added from the code block
+openpyxl==3.0.9
+Jinja2==3.0.1
+Flask-Session==0.4.0
+itsdangerous==2.0.1
+markdown==3.3.6 

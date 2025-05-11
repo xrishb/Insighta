@@ -1,0 +1,109 @@
+Date,Region,Product_Category,Product_Name,Sales_Channel,Customer_Segment,Units_Sold,Unit_Price,Revenue,Costs,Profit,Customer_Satisfaction
+2023-01-05,North America,Electronics,Smartphone X Pro,Online,Consumer,15,899.99,13499.85,10499.88,2999.97,4.2
+2023-01-07,Europe,Electronics,Laptop Ultra,In-Store,Business,8,1299.99,10399.92,7279.94,3119.98,4.7
+2023-01-10,Asia,Home Goods,Smart Speaker,Online,Consumer,22,129.99,2859.78,1429.89,1429.89,4.1
+2023-01-12,North America,Electronics,Wireless Earbuds,Online,Consumer,35,149.99,5249.65,2624.83,2624.83,4.5
+2023-01-15,Europe,Apparel,Winter Jacket,In-Store,Consumer,12,189.99,2279.88,1139.94,1139.94,3.9
+2023-01-18,North America,Electronics,Tablet Mini,Online,Education,18,349.99,6299.82,4409.87,1889.95,4.3
+2023-01-20,Asia,Electronics,Smartphone X Pro,In-Store,Consumer,9,899.99,8099.91,6299.93,1799.98,4.0
+2023-01-23,Europe,Home Goods,Coffee Maker Pro,Online,Consumer,14,199.99,2799.86,1399.93,1399.93,4.6
+2023-01-25,North America,Apparel,Running Shoes,In-Store,Consumer,28,129.99,3639.72,1819.86,1819.86,4.4
+2023-01-28,Asia,Electronics,Smart Watch,Online,Consumer,19,249.99,4749.81,3324.87,1424.94,4.2
+2023-01-30,Europe,Office Supplies,Ergonomic Chair,In-Store,Business,7,299.99,2099.93,1259.96,839.97,4.8
+2023-02-01,North America,Electronics,Laptop Ultra,Online,Business,11,1299.99,14299.89,10009.92,4289.97,4.5
+2023-02-03,Asia,Home Goods,Air Purifier,In-Store,Consumer,16,179.99,2879.84,1583.91,1295.93,3.7
+2023-02-05,Europe,Electronics,Wireless Earbuds,Online,Consumer,31,149.99,4649.69,2789.81,1859.88,4.3
+2023-02-08,North America,Apparel,Designer Bag,In-Store,Consumer,5,499.99,2499.95,1749.97,749.99,4.1
+2023-02-10,Asia,Electronics,Tablet Mini,Online,Education,13,349.99,4549.87,3184.91,1364.96,4.0
+2023-02-12,Europe,Home Goods,Smart Speaker,In-Store,Consumer,24,129.99,3119.76,1871.86,1247.90,4.4
+2023-02-15,North America,Electronics,Smartphone X Pro,Online,Consumer,17,899.99,15299.83,11899.87,3399.96,4.6
+2023-02-18,Asia,Apparel,Winter Jacket,In-Store,Consumer,9,189.99,1709.91,1025.95,683.96,3.8
+2023-02-20,Europe,Electronics,Smart Watch,Online,Consumer,26,249.99,6499.74,4549.82,1949.92,4.2
+2023-02-22,North America,Home Goods,Coffee Maker Pro,In-Store,Consumer,11,199.99,2199.89,1319.93,879.96,4.5
+2023-02-25,Asia,Electronics,Laptop Ultra,Online,Business,6,1299.99,7799.94,5459.96,2339.98,4.7
+2023-02-27,Europe,Apparel,Running Shoes,In-Store,Consumer,21,129.99,2729.79,1637.87,1091.92,4.0
+2023-03-01,North America,Electronics,Wireless Earbuds,Online,Consumer,29,149.99,4349.71,2609.83,1739.88,4.3
+2023-03-03,Asia,Home Goods,Smart Speaker,In-Store,Consumer,18,129.99,2339.82,1403.89,935.93,4.1
+2023-03-05,Europe,Electronics,Tablet Mini,Online,Education,15,349.99,5249.85,3674.90,1574.96,4.4
+2023-03-08,North America,Apparel,Designer Bag,In-Store,Consumer,4,499.99,1999.96,1399.97,599.99,4.2
+2023-03-10,Asia,Electronics,Smartphone X Pro,Online,Consumer,12,899.99,10799.88,8399.90,2399.98,4.5
+2023-03-12,Europe,Home Goods,Air Purifier,In-Store,Consumer,19,179.99,3419.81,2056.89,1362.92,3.9
+2023-03-15,North America,Electronics,Smart Watch,Online,Consumer,23,249.99,5749.77,4024.84,1724.93,4.3
+2023-03-18,Asia,Office Supplies,Ergonomic Chair,In-Store,Business,8,299.99,2399.92,1439.95,959.97,4.6
+2023-03-20,Europe,Electronics,Laptop Ultra,Online,Business,9,1299.99,11699.91,8189.94,3509.97,4.8
+2023-03-22,North America,Home Goods,Coffee Maker Pro,In-Store,Consumer,13,199.99,2599.87,1559.92,1039.95,4.4
+2023-03-25,Asia,Apparel,Running Shoes,Online,Consumer,25,129.99,3249.75,1949.85,1299.90,4.0
+2023-03-27,Europe,Electronics,Wireless Earbuds,In-Store,Consumer,27,149.99,4049.73,2429.84,1619.89,4.2
+2023-03-30,North America,Home Goods,Smart Speaker,Online,Consumer,20,129.99,2599.80,1559.88,1039.92,4.1
+2023-04-02,Asia,Electronics,Tablet Mini,In-Store,Education,14,349.99,4899.86,3429.90,1469.96,4.3
+2023-04-05,Europe,Apparel,Winter Jacket,Online,Consumer,7,189.99,1329.93,797.96,531.97,3.7
+2023-04-08,North America,Electronics,Smartphone X Pro,In-Store,Consumer,16,899.99,14399.84,11199.88,3199.96,4.5
+2023-04-10,Asia,Home Goods,Air Purifier,Online,Consumer,15,179.99,2699.85,1619.91,1079.94,4.0
+2023-04-12,Europe,Electronics,Smart Watch,In-Store,Consumer,22,249.99,5499.78,3849.85,1649.93,4.2
+2023-04-15,North America,Office Supplies,Ergonomic Chair,Online,Business,9,299.99,2699.91,1619.95,1079.96,4.7
+2023-04-18,Asia,Electronics,Laptop Ultra,In-Store,Business,7,1299.99,9099.93,6369.95,2729.98,4.6
+2023-04-20,Europe,Home Goods,Coffee Maker Pro,Online,Consumer,17,199.99,3399.83,2039.90,1359.93,4.3
+2023-04-22,North America,Apparel,Running Shoes,In-Store,Consumer,26,129.99,3379.74,2027.84,1351.90,4.1
+2023-04-25,Asia,Electronics,Wireless Earbuds,Online,Consumer,32,149.99,4799.68,2879.81,1919.87,4.4
+2023-04-28,Europe,Home Goods,Smart Speaker,In-Store,Consumer,21,129.99,2729.79,1637.87,1091.92,4.0
+2023-04-30,North America,Electronics,Tablet Mini,Online,Education,19,349.99,6649.81,4654.87,1994.94,4.5
+2023-05-02,Asia,Apparel,Designer Bag,In-Store,Consumer,3,499.99,1499.97,1049.98,449.99,4.2
+2023-05-05,Europe,Electronics,Smartphone X Pro,Online,Consumer,14,899.99,12599.86,9799.89,2799.97,4.6
+2023-05-08,North America,Home Goods,Air Purifier,In-Store,Consumer,17,179.99,3059.83,1835.90,1223.93,3.8
+2023-05-10,Asia,Electronics,Smart Watch,Online,Consumer,24,249.99,5999.76,4199.83,1799.93,4.3
+2023-05-12,Europe,Office Supplies,Ergonomic Chair,In-Store,Business,6,299.99,1799.94,1079.96,719.98,4.7
+2023-05-15,North America,Electronics,Laptop Ultra,Online,Business,10,1299.99,12999.90,9099.93,3899.97,4.8
+2023-05-18,Asia,Home Goods,Coffee Maker Pro,In-Store,Consumer,15,199.99,2999.85,1799.91,1199.94,4.2
+2023-05-20,Europe,Apparel,Running Shoes,Online,Consumer,23,129.99,2989.77,1793.86,1195.91,4.0
+2023-05-22,North America,Electronics,Wireless Earbuds,In-Store,Consumer,28,149.99,4199.72,2519.83,1679.89,4.4
+2023-05-25,Asia,Home Goods,Smart Speaker,Online,Consumer,19,129.99,2469.81,1481.89,987.92,4.1
+2023-05-28,Europe,Electronics,Tablet Mini,In-Store,Education,16,349.99,5599.84,3919.89,1679.95,4.3
+2023-05-30,North America,Apparel,Winter Jacket,Online,Consumer,8,189.99,1519.92,911.95,607.97,3.6
+2023-06-02,Asia,Electronics,Smartphone X Pro,In-Store,Consumer,13,899.99,11699.87,9099.90,2599.97,4.4
+2023-06-05,Europe,Home Goods,Air Purifier,Online,Consumer,18,179.99,3239.82,1943.89,1295.93,3.9
+2023-06-08,North America,Electronics,Smart Watch,In-Store,Consumer,25,249.99,6249.75,4374.83,1874.93,4.2
+2023-06-10,Asia,Office Supplies,Ergonomic Chair,Online,Business,10,299.99,2999.90,1799.94,1199.96,4.6
+2023-06-12,Europe,Electronics,Laptop Ultra,In-Store,Business,8,1299.99,10399.92,7279.94,3119.98,4.7
+2023-06-15,North America,Home Goods,Coffee Maker Pro,Online,Consumer,16,199.99,3199.84,1919.90,1279.94,4.3
+2023-06-18,Asia,Apparel,Running Shoes,In-Store,Consumer,24,129.99,3119.76,1871.86,1247.90,4.0
+2023-06-20,Europe,Electronics,Wireless Earbuds,Online,Consumer,30,149.99,4499.70,2699.82,1799.88,4.4
+2023-06-22,North America,Home Goods,Smart Speaker,In-Store,Consumer,22,129.99,2859.78,1715.87,1143.91,4.1
+2023-06-25,Asia,Electronics,Tablet Mini,Online,Education,17,349.99,5949.83,4164.88,1784.95,4.5
+2023-06-28,Europe,Apparel,Designer Bag,In-Store,Consumer,4,499.99,1999.96,1399.97,599.99,4.3
+2023-06-30,North America,Electronics,Smartphone X Pro,Online,Consumer,15,899.99,13499.85,10499.88,2999.97,4.6
+2023-07-03,Asia,Home Goods,Air Purifier,In-Store,Consumer,14,179.99,2519.86,1511.92,1007.94,3.8
+2023-07-05,Europe,Electronics,Smart Watch,Online,Consumer,27,249.99,6749.73,4724.81,2024.92,4.3
+2023-07-08,North America,Office Supplies,Ergonomic Chair,In-Store,Business,8,299.99,2399.92,1439.95,959.97,4.7
+2023-07-10,Asia,Electronics,Laptop Ultra,Online,Business,9,1299.99,11699.91,8189.94,3509.97,4.9
+2023-07-12,Europe,Home Goods,Coffee Maker Pro,In-Store,Consumer,17,199.99,3399.83,2039.90,1359.93,4.3
+2023-07-15,North America,Apparel,Running Shoes,Online,Consumer,29,129.99,3769.71,2261.83,1507.88,4.1
+2023-07-18,Asia,Electronics,Wireless Earbuds,In-Store,Consumer,33,149.99,4949.67,2969.80,1979.87,4.4
+2023-07-20,Europe,Home Goods,Smart Speaker,Online,Consumer,20,129.99,2599.80,1559.88,1039.92,4.0
+2023-07-22,North America,Electronics,Tablet Mini,In-Store,Education,18,349.99,6299.82,4409.87,1889.95,4.4
+2023-07-25,Asia,Apparel,Winter Jacket,Online,Consumer,6,189.99,1139.94,683.96,455.98,3.7
+2023-07-28,Europe,Electronics,Smartphone X Pro,In-Store,Consumer,12,899.99,10799.88,8399.90,2399.98,4.5
+2023-07-30,North America,Home Goods,Air Purifier,Online,Consumer,19,179.99,3419.81,2051.89,1367.92,3.9
+2023-08-02,Asia,Electronics,Smart Watch,In-Store,Consumer,26,249.99,6499.74,4549.82,1949.92,4.3
+2023-08-05,Europe,Office Supplies,Ergonomic Chair,Online,Business,7,299.99,2099.93,1259.96,839.97,4.8
+2023-08-08,North America,Electronics,Laptop Ultra,In-Store,Business,10,1299.99,12999.90,9099.93,3899.97,4.7
+2023-08-10,Asia,Home Goods,Coffee Maker Pro,Online,Consumer,15,199.99,2999.85,1799.91,1199.94,4.3
+2023-08-12,Europe,Apparel,Running Shoes,In-Store,Consumer,22,129.99,2859.78,1715.87,1143.91,4.0
+2023-08-15,North America,Electronics,Wireless Earbuds,Online,Consumer,31,149.99,4649.69,2789.81,1859.88,4.4
+2023-08-18,Asia,Home Goods,Smart Speaker,In-Store,Consumer,23,129.99,2989.77,1793.86,1195.91,4.2
+2023-08-20,Europe,Electronics,Tablet Mini,Online,Education,14,349.99,4899.86,3429.90,1469.96,4.5
+2023-08-22,North America,Apparel,Designer Bag,In-Store,Consumer,5,499.99,2499.95,1749.97,749.99,4.3
+2023-08-25,Asia,Electronics,Smartphone X Pro,Online,Consumer,11,899.99,9899.89,7699.91,2199.98,4.6
+2023-08-28,Europe,Home Goods,Air Purifier,In-Store,Consumer,16,179.99,2879.84,1727.90,1151.94,3.9
+2023-08-30,North America,Electronics,Smart Watch,Online,Consumer,28,249.99,6999.72,4899.80,2099.92,4.2
+2023-09-02,Asia,Office Supplies,Ergonomic Chair,In-Store,Business,9,299.99,2699.91,1619.95,1079.96,4.7
+2023-09-05,Europe,Electronics,Laptop Ultra,Online,Business,7,1299.99,9099.93,6369.95,2729.98,4.8
+2023-09-08,North America,Home Goods,Coffee Maker Pro,In-Store,Consumer,14,199.99,2799.86,1679.92,1119.94,4.3
+2023-09-10,Asia,Apparel,Running Shoes,Online,Consumer,27,129.99,3509.73,2105.84,1403.89,4.1
+2023-09-12,Europe,Electronics,Wireless Earbuds,In-Store,Consumer,29,149.99,4349.71,2609.83,1739.88,4.4
+2023-09-15,North America,Home Goods,Smart Speaker,Online,Consumer,21,129.99,2729.79,1637.87,1091.92,4.0
+2023-09-18,Asia,Electronics,Tablet Mini,In-Store,Education,16,349.99,5599.84,3919.89,1679.95,4.5
+2023-09-20,Europe,Apparel,Winter Jacket,Online,Consumer,9,189.99,1709.91,1025.95,683.96,3.8
+2023-09-22,North America,Electronics,Smartphone X Pro,In-Store,Consumer,13,899.99,11699.87,9099.90,2599.97,4.6
+2023-09-25,Asia,Home Goods,Air Purifier,Online,Consumer,18,179.99,3239.82,1943.89,1295.93,3.9
+2023-09-28,Europe,Electronics,Smart Watch,In-Store,Consumer,25,249.99,6249.75,4374.83,1874.93,4.3
+2023-09-30,North America,Office Supplies,Ergonomic Chair,Online,Business,8,299.99,2399.92,1439.95,959.97,4.7 
